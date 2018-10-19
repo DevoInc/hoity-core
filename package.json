@@ -1,0 +1,25 @@
+{
+  "name": "@devo/hoity-core",
+  "version": "0.1.1",
+  "description": "Hoity (High Order ITerators Yielded) core functionality",
+  "main": "index.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@devo/hoity-chai": "^0.1.0",
+    "@devo/hoity-grasp": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  },
+  "scripts": {
+    "test": "mocha 'test/**/*-test.js'",
+    "nyc": "nyc --reporter=html --reporter=text mocha"
+  },
+  "keywords": [],
+  "author": "Devo",
+  "license": "MIT"
+}
