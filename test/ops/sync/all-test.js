@@ -16,7 +16,9 @@ function operator(opname) {
 }
 
 describe('Hoity sync operator', function() {
-  [ 'concat',
+  [ 
+    'async',
+    'concat',
     'drop',
     'filter',
     'flat',

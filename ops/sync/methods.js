@@ -4,6 +4,7 @@ module.exports = {
   pipe: require('./pipe'),
 
   //Producing another Iterator
+  async: require('./async'),
   compose: require('./compose'),
   concat: require('./concat'),
   drop: require('./drop'),

@@ -8,6 +8,7 @@ module.exports = {
   pipe: pipable(require('./pipe')),
 
   //Producing another Iterator
+  async: pipable(require('./async')),
   compose: pipable(require('./compose')),
   concat: pipable(require('./concat')),
   drop: pipable(require('./drop')),
