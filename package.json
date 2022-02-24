@@ -1,8 +1,15 @@
 {
   "name": "@devo/hoity-core",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Hoity (High Order ITerators Yielded) core functionality",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "funs",
+    "ops",
+    "proto",
+    "util"
+  ],
   "directories": {
     "test": "mocha"
   },
