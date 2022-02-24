@@ -3,6 +3,13 @@
   "version": "0.1.2",
   "description": "Hoity (High Order ITerators Yielded) core functionality",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "funs",
+    "ops",
+    "proto",
+    "util"
+  ],
   "directories": {
     "test": "mocha"
   },
