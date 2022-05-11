@@ -1,9 +1,9 @@
 'use strict';
 
 const chai = require('chai');
-chai.use(require('@devo/hoity-chai'));
+chai.use(require('@devoinc/hoity-chai'));
 
-const {Iterator} = require('@devo/hoity-grasp');
+const {Iterator} = require('@devoinc/hoity-grasp');
 const hoity = require('../../..');
 const funs = hoity.funs.sync;
 

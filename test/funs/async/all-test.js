@@ -1,7 +1,7 @@
 'use strict';
 
 const chai = require('chai');
-chai.use(require('@devo/hoity-chai'));
+chai.use(require('@devoinc/hoity-chai'));
 
 const hoity = require('../../..');
 const funs = hoity.funs.async;
