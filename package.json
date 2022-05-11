@@ -1,5 +1,5 @@
 {
-  "name": "@devo/hoity-core",
+  "name": "@devoinc/hoity-core",
   "version": "0.1.3",
   "description": "Hoity (High Order ITerators Yielded) core functionality",
   "main": "index.js",
