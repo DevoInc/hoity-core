@@ -1,6 +1,6 @@
 "use strict";
 
-const {Iterator, AsyncIterator} = require('@devo/hoity-grasp');
+const {Iterator, AsyncIterator} = require('@devoinc/hoity-grasp');
 
 const allSyncMethods = require('../ops/sync/methods');
 const allAsyncMethods = require('../ops/async/methods');

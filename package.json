@@ -14,8 +14,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "@devo/hoity-chai": "^0.1.0",
-    "@devo/hoity-grasp": "^0.1.1"
+    "@devoinc/hoity-chai": "^1.0.0",
+    "@devoinc/hoity-grasp": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",

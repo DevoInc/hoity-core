@@ -40,28 +40,28 @@ const it = range(0, 10)
 
 ### Via NPM
 
-`npm install @devo/hoity-core`
+`npm install @devoinc/hoity-core`
 
 
 ### Basic usage
 
 #### Loading all ops
 ```javascript
-const hoity = require('@devo/hoity-core');
+const hoity = require('@devoinc/hoity-core');
 // Loading all ops into Iterator's prototype
 const unload = hoity.proto({all: true});
 ```
 
 #### Loading pipe op
 ```javascript
-const hoity = require('@devo/hoity-core');
+const hoity = require('@devoinc/hoity-core');
 // Loading pipe ops into Iterator's prototype
 const unload = hoity.proto({pipe: true});
 ```
 
 #### Loading some ops
 ```javascript
-const hoity = require('@devo/hoity-core');
+const hoity = require('@devoinc/hoity-core');
 // Loading pipe ops into Iterator's prototype
 const unload = hoity.proto({
   map: true,
@@ -72,14 +72,14 @@ const unload = hoity.proto({
 
 #### Unload prototype
 ```javascript
-const hoity = require('@devo/hoity-core');
+const hoity = require('@devoinc/hoity-core');
 const unload = hoity.proto({all: true});
 unload();
 ```
 
 #### Access to ops
 ```javascript
-const hoity = require('@devo/hoity-core');
+const hoity = require('@devoinc/hoity-core');
 const {
   async: asyncOps,
   sync: syncOps
